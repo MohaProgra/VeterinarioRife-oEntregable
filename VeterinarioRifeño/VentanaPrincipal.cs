@@ -23,7 +23,7 @@ namespace VeterinarioRifeño
         public VentanaPrincipal()
         {
             InitializeComponent();
-
+            dataGridView1.DataSource = conexion.getmascota();
             
 
         }
