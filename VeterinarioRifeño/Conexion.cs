@@ -25,7 +25,7 @@ namespace VeterinarioRifeño
             {
                 conexion.Open();
                 MySqlCommand consulta =
-                    new MySqlCommand("SELECT * FROM mascota,", conexion);
+                    new MySqlCommand("SELECT * FROM mascota", conexion);
                 MySqlDataReader resultado = consulta.ExecuteReader();
                 DataTable mascota = new DataTable();
                 mascota.Load(resultado);
