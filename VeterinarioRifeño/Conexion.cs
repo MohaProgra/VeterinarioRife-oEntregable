@@ -13,12 +13,14 @@ namespace VeterinarioRifeño
     {
 
         public MySqlConnection conexion;
+       
         
 
         public Conexion()
         {
             conexion = new MySqlConnection("Server = 192.168.71.181; Database = veterinario; Uid = root; Pwd =; Port = 3306");
         }
+        //esto es para el data grid view de la mascota
         public DataTable getmascota()
         {
             try
@@ -38,8 +40,66 @@ namespace VeterinarioRifeño
             throw e;
           }
         }
-            
-            
+
+        //esto es para el data grid view de la vacuna
+        public DataTable getvacuna()
+        {
+            try
+            {
+                conexion.Open();
+                MySqlCommand consulta =
+                    new MySqlCommand("SELECT * FROM vacuna", conexion);
+                MySqlDataReader resultado = consulta.ExecuteReader();
+                DataTable mascota = new DataTable();
+                mascota.Load(resultado);
+                conexion.Close();
+                return mascota;
+
+            }
+            catch (MySqlException e)
+            {
+                throw e;
+            }
+        }
+        public DataTable getpeluquería()
+        {
+            try
+            {
+                conexion.Open();
+                MySqlCommand consulta =
+                    new MySqlCommand("SELECT * FROM peluquería", conexion);
+                MySqlDataReader resultado = consulta.ExecuteReader();
+                DataTable mascota = new DataTable();
+                mascota.Load(resultado);
+                conexion.Close();
+                return mascota;
+
+            }
+            catch (MySqlException e)
+            {
+                throw e;
+            }
+        }
+        public DataTable getguarderia()
+        {
+            try
+            {
+                conexion.Open();
+                MySqlCommand consulta =
+                    new MySqlCommand("SELECT * FROM guarderia", conexion);
+                MySqlDataReader resultado = consulta.ExecuteReader();
+                DataTable mascota = new DataTable();
+                mascota.Load(resultado);
+                conexion.Close();
+                return mascota;
+
+            }
+            catch (MySqlException e)
+            {
+                throw e;
+            }
+        }
+
         public Boolean loginVeterinario(String LoginName, String Password)
         {
             try
@@ -88,7 +148,57 @@ namespace VeterinarioRifeño
             
            
         }
-         
+        public String guardarmascota(String Nombre, String Especie, String Raza, String AñoNacimiento, String Propietario)
+        {
+            try
+            {
+                conexion.Open();
+                MySqlCommand consulta =
+                new MySqlCommand("INSERT INTO mascota (Nombre, Especie, Raza, AñoNacimiento, Propietario) VALUES (@Nombre, @Especie, @Raza, @AñoNacimiento, @Propietario)", conexion);
+                consulta.Parameters.AddWithValue("@Nombre", Nombre);
+                consulta.Parameters.AddWithValue("@Especie", Especie);
+                consulta.Parameters.AddWithValue("@Raza", Raza);
+                consulta.Parameters.AddWithValue("@AñoNacimiento", AñoNacimiento);
+                consulta.Parameters.AddWithValue("@Propietario", Propietario);
+                
+                consulta.ExecuteNonQuery();
+
+                conexion.Close();
+                return "se guardo correctamente";
+            }
+            catch (MySqlException e)
+            {
+                return "error";
+            }
+
+
+        }
+        public String registrarvacuna(String Nombre_Mascota, String Tipo_Vacuna, String Semana, String Propietario)
+        {
+            try
+            {
+                conexion.Open();
+                MySqlCommand consulta =
+                new MySqlCommand("INSERT INTO vacuna (Nombre_Mascota, Tipo_Vacuna, Semana, Propietario) VALUES (@Nombre_Mascota, @Tipo_Vacuna, @Semana, @Propietario)", conexion);
+                consulta.Parameters.AddWithValue("@Nombre_Mascota", Nombre_Mascota);
+                consulta.Parameters.AddWithValue("@Tipo_Vacuna", Tipo_Vacuna);
+                consulta.Parameters.AddWithValue("@Semana", Semana);
+                consulta.Parameters.AddWithValue("@Propietario", Propietario);
+                
+
+                consulta.ExecuteNonQuery();
+
+                conexion.Close();
+                return "se guardo correctamente";
+            }
+            catch (MySqlException e)
+            {
+                return "error";
+            }
+
+
+        }
+
 
 
     }

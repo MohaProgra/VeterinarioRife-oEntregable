@@ -24,7 +24,11 @@ namespace VeterinarioRifeño
         {
             InitializeComponent();
             dataGridView1.DataSource = conexion.getmascota();
-            
+            dataGridView2.DataSource = conexion.getvacuna();
+            dataGridView3.DataSource = conexion.getpeluquería();
+            dataGridView5.DataSource = conexion.getguarderia();
+
+
 
         }
 
@@ -78,7 +82,7 @@ namespace VeterinarioRifeño
         {
            MessageBox.Show(conexion.insertaUsuario(textBoxUSUARIO.Text, textBoxCONTRASEÑA.Text, textBoxNOMBRE.Text));
         }
-
+        //Este código es para la hora y la fecha actualizada
         private void horafecha_Tick(object sender, EventArgs e)
         {
             lblhora.Text = DateTime.Now.ToString("HH:mm:ss");
@@ -89,6 +93,16 @@ namespace VeterinarioRifeño
         {
             VentanaPrincipal v = new VentanaPrincipal();
                 v.Show();
+        }
+
+        private void guardarmascota_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(conexion.guardarmascota(textBoxMascota.Text, textBoxEspecie.Text, textBoxRaza.Text, textBoxAñoNacimiento.Text, textBoxPropietario.Text));
+        }
+
+        private void registrarvacuna_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(conexion.registrarvacuna(textBoxNombre1.Text, textBoxTipoVacuna.Text, textBoxSemana.Text, textBoxPropietario1.Text));
         }
     }
 }
