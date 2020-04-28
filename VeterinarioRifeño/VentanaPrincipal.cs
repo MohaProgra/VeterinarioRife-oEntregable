@@ -84,5 +84,11 @@ namespace VeterinarioRifeño
             lblhora.Text = DateTime.Now.ToString("HH:mm:ss");
             lblfecha.Text = DateTime.Now.ToLongDateString();
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            VentanaPrincipal v = new VentanaPrincipal();
+                v.Show();
+        }
     }
 }

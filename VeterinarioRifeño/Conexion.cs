@@ -17,7 +17,7 @@ namespace VeterinarioRifeño
 
         public Conexion()
         {
-            conexion = new MySqlConnection("Server = 192.168.71.180; Database = veterinario; Uid = root; Pwd =; Port = 3306");
+            conexion = new MySqlConnection("Server = 192.168.71.181; Database = veterinario; Uid = root; Pwd =; Port = 3306");
         }
         public DataTable getmascota()
         {
