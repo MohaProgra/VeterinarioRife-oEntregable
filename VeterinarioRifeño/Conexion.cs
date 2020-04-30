@@ -41,6 +41,8 @@ namespace VeterinarioRifeño
           }
         }
 
+       
+
         //esto es para el data grid view de la vacuna
         public DataTable getvacuna()
         {
@@ -61,6 +63,8 @@ namespace VeterinarioRifeño
                 throw e;
             }
         }
+
+        //esto es para el data grid view de la peluquería
         public DataTable getpeluqueria()
         {
             try
@@ -81,6 +85,7 @@ namespace VeterinarioRifeño
             }
         }
 
+        ////esto es para el data grid view de la agenda
         public DataTable getagenda()
         {
             try
@@ -100,6 +105,8 @@ namespace VeterinarioRifeño
                 throw e;
             }
         }
+
+        ////esto es para el data grid view de la guarderia
         public DataTable getguarderia()
         {
             try
@@ -168,17 +175,17 @@ namespace VeterinarioRifeño
             
            
         }
-        public String guardarmascota(String Nombre, String Especie, String Raza, String AñoNacimiento, String Propietario)
+        public String guardarmascota(String Nombre, String Especie, String Raza, String FechaNacimiento, String Propietario)
         {
             try
             {
                 conexion.Open();
                 MySqlCommand consulta =
-                new MySqlCommand("INSERT INTO mascota (Nombre, Especie, Raza, AñoNacimiento, Propietario) VALUES (@Nombre, @Especie, @Raza, @AñoNacimiento, @Propietario)", conexion);
+                new MySqlCommand("INSERT INTO mascota (Nombre, Especie, Raza, FechaNacimiento, Propietario) VALUES (@Nombre, @Especie, @Raza, @FechaNacimiento, @Propietario)", conexion);
                 consulta.Parameters.AddWithValue("@Nombre", Nombre);
                 consulta.Parameters.AddWithValue("@Especie", Especie);
                 consulta.Parameters.AddWithValue("@Raza", Raza);
-                consulta.Parameters.AddWithValue("@AñoNacimiento", AñoNacimiento);
+                consulta.Parameters.AddWithValue("@FechaNacimiento", FechaNacimiento);
                 consulta.Parameters.AddWithValue("@Propietario", Propietario);
                 
                 consulta.ExecuteNonQuery();
