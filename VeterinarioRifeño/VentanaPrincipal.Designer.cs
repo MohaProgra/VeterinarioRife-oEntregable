@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guardarvacuna = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -69,11 +69,13 @@
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.BarraTitulo = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
             this.btnRestaurar = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.nuevomascota = new System.Windows.Forms.Button();
             this.textBoxPropietario = new System.Windows.Forms.TextBox();
             this.textBoxEspecie = new System.Windows.Forms.TextBox();
             this.textBoxRaza = new System.Windows.Forms.TextBox();
@@ -101,12 +103,16 @@
             this.button12 = new System.Windows.Forms.Button();
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.pictureBox32 = new System.Windows.Forms.PictureBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.pictureBox33 = new System.Windows.Forms.PictureBox();
+            this.button37 = new System.Windows.Forms.Button();
             this.registrarvacuna = new System.Windows.Forms.Button();
             this.textBoxPropietario1 = new System.Windows.Forms.TextBox();
             this.textBoxNombre1 = new System.Windows.Forms.TextBox();
@@ -134,16 +140,19 @@
             this.button18 = new System.Windows.Forms.Button();
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.label22 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.pictureBox34 = new System.Windows.Forms.PictureBox();
             this.button38 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.registrarpeluqueria = new System.Windows.Forms.Button();
+            this.textBoxPropietario2 = new System.Windows.Forms.TextBox();
+            this.textBoxNombre2 = new System.Windows.Forms.TextBox();
+            this.textBoxTipoCorte = new System.Windows.Forms.TextBox();
+            this.textBoxPeluquero = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -165,21 +174,23 @@
             this.button24 = new System.Windows.Forms.Button();
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.label27 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.label17 = new System.Windows.Forms.Label();
-            this.comboBox16 = new System.Windows.Forms.ComboBox();
+            this.pictureBox35 = new System.Windows.Forms.PictureBox();
+            this.button40 = new System.Windows.Forms.Button();
+            this.textBoxPropietario3 = new System.Windows.Forms.TextBox();
+            this.textBoxNombre3 = new System.Windows.Forms.TextBox();
+            this.textBoxDia = new System.Windows.Forms.TextBox();
+            this.textBoxHora = new System.Windows.Forms.TextBox();
+            this.registrarcita = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
-            this.comboBox17 = new System.Windows.Forms.ComboBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.comboBox18 = new System.Windows.Forms.ComboBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.comboBox19 = new System.Windows.Forms.ComboBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.comboBox20 = new System.Windows.Forms.ComboBox();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.panel30 = new System.Windows.Forms.Panel();
             this.panel45 = new System.Windows.Forms.Panel();
@@ -197,16 +208,19 @@
             this.button30 = new System.Windows.Forms.Button();
             this.pictureBox29 = new System.Windows.Forms.PictureBox();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.label28 = new System.Windows.Forms.Label();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.button39 = new System.Windows.Forms.Button();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.pictureBox36 = new System.Windows.Forms.PictureBox();
+            this.button41 = new System.Windows.Forms.Button();
+            this.registrarguarderia = new System.Windows.Forms.Button();
+            this.textBoxResponsable = new System.Windows.Forms.TextBox();
+            this.textBoxNombre4 = new System.Windows.Forms.TextBox();
+            this.textBoxEntrada = new System.Windows.Forms.TextBox();
+            this.textBoxSalida = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
@@ -228,11 +242,14 @@
             this.button36 = new System.Windows.Forms.Button();
             this.pictureBox31 = new System.Windows.Forms.PictureBox();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.label29 = new System.Windows.Forms.Label();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.horafecha = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox37 = new System.Windows.Forms.PictureBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.guardarvacuna.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panelContenedor.SuspendLayout();
@@ -254,7 +271,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel18.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
@@ -265,6 +284,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.panel24.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
@@ -275,6 +295,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             this.panel30.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
@@ -285,6 +306,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             this.tabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             this.panel36.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
@@ -294,6 +316,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
             this.SuspendLayout();
             // 
             // guardarvacuna
@@ -315,6 +338,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.Red;
             this.tabPage1.Controls.Add(this.panel6);
             this.tabPage1.Controls.Add(this.panelContenedor);
             this.tabPage1.Controls.Add(this.MenuVertical);
@@ -327,7 +351,6 @@
             this.tabPage1.Size = new System.Drawing.Size(800, 463);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Menú";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // panel6
             // 
@@ -340,6 +363,7 @@
             // panelContenedor
             // 
             this.panelContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.panelContenedor.Controls.Add(this.pictureBox37);
             this.panelContenedor.Controls.Add(this.lblfecha);
             this.panelContenedor.Controls.Add(this.lblhora);
             this.panelContenedor.Controls.Add(this.insertaUsuario);
@@ -348,6 +372,7 @@
             this.panelContenedor.Controls.Add(this.textBoxCONTRASEÑA);
             this.panelContenedor.Controls.Add(this.textBoxNOMBRE);
             this.panelContenedor.Controls.Add(this.shapeContainer1);
+            this.panelContenedor.Controls.Add(this.groupBox1);
             this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContenedor.Location = new System.Drawing.Point(185, 53);
             this.panelContenedor.Name = "panelContenedor";
@@ -356,23 +381,21 @@
             // 
             // lblfecha
             // 
-            this.lblfecha.AutoSize = true;
             this.lblfecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblfecha.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblfecha.Location = new System.Drawing.Point(185, 348);
+            this.lblfecha.Location = new System.Drawing.Point(126, 328);
             this.lblfecha.Name = "lblfecha";
-            this.lblfecha.Size = new System.Drawing.Size(90, 31);
+            this.lblfecha.Size = new System.Drawing.Size(294, 31);
             this.lblfecha.TabIndex = 10;
-            this.lblfecha.Text = "Fecha";
+            this.lblfecha.Text = "FECHA";
             // 
             // lblhora
             // 
-            this.lblhora.AutoSize = true;
-            this.lblhora.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblhora.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblhora.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblhora.Location = new System.Drawing.Point(180, 257);
+            this.lblhora.Location = new System.Drawing.Point(116, 245);
             this.lblhora.Name = "lblhora";
-            this.lblhora.Size = new System.Drawing.Size(183, 63);
+            this.lblhora.Size = new System.Drawing.Size(304, 63);
             this.lblhora.TabIndex = 9;
             this.lblhora.Text = "HORA";
             // 
@@ -382,7 +405,7 @@
             this.insertaUsuario.BackColor = System.Drawing.Color.SeaGreen;
             this.insertaUsuario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertaUsuario.ForeColor = System.Drawing.Color.White;
-            this.insertaUsuario.Location = new System.Drawing.Point(216, 206);
+            this.insertaUsuario.Location = new System.Drawing.Point(122, 202);
             this.insertaUsuario.Name = "insertaUsuario";
             this.insertaUsuario.Size = new System.Drawing.Size(119, 19);
             this.insertaUsuario.TabIndex = 8;
@@ -394,7 +417,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(202, 18);
+            this.label1.Location = new System.Drawing.Point(113, 28);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(150, 19);
             this.label1.TabIndex = 6;
@@ -406,7 +429,7 @@
             this.textBoxUSUARIO.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxUSUARIO.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxUSUARIO.ForeColor = System.Drawing.Color.Red;
-            this.textBoxUSUARIO.Location = new System.Drawing.Point(191, 68);
+            this.textBoxUSUARIO.Location = new System.Drawing.Point(85, 68);
             this.textBoxUSUARIO.Name = "textBoxUSUARIO";
             this.textBoxUSUARIO.Size = new System.Drawing.Size(199, 20);
             this.textBoxUSUARIO.TabIndex = 4;
@@ -418,7 +441,7 @@
             this.textBoxCONTRASEÑA.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxCONTRASEÑA.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxCONTRASEÑA.ForeColor = System.Drawing.Color.Red;
-            this.textBoxCONTRASEÑA.Location = new System.Drawing.Point(192, 117);
+            this.textBoxCONTRASEÑA.Location = new System.Drawing.Point(85, 111);
             this.textBoxCONTRASEÑA.Name = "textBoxCONTRASEÑA";
             this.textBoxCONTRASEÑA.Size = new System.Drawing.Size(199, 20);
             this.textBoxCONTRASEÑA.TabIndex = 3;
@@ -430,7 +453,7 @@
             this.textBoxNOMBRE.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxNOMBRE.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxNOMBRE.ForeColor = System.Drawing.Color.Red;
-            this.textBoxNOMBRE.Location = new System.Drawing.Point(192, 155);
+            this.textBoxNOMBRE.Location = new System.Drawing.Point(87, 155);
             this.textBoxNOMBRE.Name = "textBoxNOMBRE";
             this.textBoxNOMBRE.Size = new System.Drawing.Size(199, 20);
             this.textBoxNOMBRE.TabIndex = 2;
@@ -453,8 +476,8 @@
             // 
             this.lineShape3.BorderColor = System.Drawing.Color.White;
             this.lineShape3.Name = "lineShape3";
-            this.lineShape3.X1 = 194;
-            this.lineShape3.X2 = 391;
+            this.lineShape3.X1 = 90;
+            this.lineShape3.X2 = 287;
             this.lineShape3.Y1 = 182;
             this.lineShape3.Y2 = 182;
             // 
@@ -462,19 +485,19 @@
             // 
             this.lineShape2.BorderColor = System.Drawing.Color.White;
             this.lineShape2.Name = "lineShape2";
-            this.lineShape2.X1 = 192;
-            this.lineShape2.X2 = 388;
-            this.lineShape2.Y1 = 146;
-            this.lineShape2.Y2 = 145;
+            this.lineShape2.X1 = 87;
+            this.lineShape2.X2 = 283;
+            this.lineShape2.Y1 = 143;
+            this.lineShape2.Y2 = 142;
             // 
             // lineShape1
             // 
             this.lineShape1.BorderColor = System.Drawing.Color.White;
             this.lineShape1.Name = "lineShape1";
-            this.lineShape1.X1 = 192;
-            this.lineShape1.X2 = 389;
-            this.lineShape1.Y1 = 104;
-            this.lineShape1.Y2 = 104;
+            this.lineShape1.X1 = 87;
+            this.lineShape1.X2 = 284;
+            this.lineShape1.Y1 = 94;
+            this.lineShape1.Y2 = 94;
             // 
             // MenuVertical
             // 
@@ -670,6 +693,8 @@
             // BarraTitulo
             // 
             this.BarraTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.BarraTitulo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.BarraTitulo.Controls.Add(this.label13);
             this.BarraTitulo.Controls.Add(this.btnRestaurar);
             this.BarraTitulo.Controls.Add(this.btnMinimizar);
             this.BarraTitulo.Controls.Add(this.btnMaximizar);
@@ -680,12 +705,23 @@
             this.BarraTitulo.Size = new System.Drawing.Size(794, 50);
             this.BarraTitulo.TabIndex = 0;
             // 
+            // label13
+            // 
+            this.label13.Font = new System.Drawing.Font("Consolas", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Red;
+            this.label13.Location = new System.Drawing.Point(51, 10);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(574, 31);
+            this.label13.TabIndex = 4;
+            this.label13.Text = "VETERINARIO RIFEÑO";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // btnRestaurar
             // 
             this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRestaurar.Image = global::VeterinarioRifeño.Properties.Resources.restaurar_32;
-            this.btnRestaurar.Location = new System.Drawing.Point(728, 16);
+            this.btnRestaurar.Location = new System.Drawing.Point(724, 16);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(25, 25);
             this.btnRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -699,7 +735,7 @@
             this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimizar.Image = global::VeterinarioRifeño.Properties.Resources.minimizar_32;
-            this.btnMinimizar.Location = new System.Drawing.Point(697, 16);
+            this.btnMinimizar.Location = new System.Drawing.Point(693, 16);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(25, 25);
             this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -712,7 +748,7 @@
             this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMaximizar.Image = global::VeterinarioRifeño.Properties.Resources.maximizar_32;
-            this.btnMaximizar.Location = new System.Drawing.Point(728, 16);
+            this.btnMaximizar.Location = new System.Drawing.Point(724, 16);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(25, 25);
             this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -725,7 +761,7 @@
             this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCerrar.Image = global::VeterinarioRifeño.Properties.Resources.close_32;
-            this.btnCerrar.Location = new System.Drawing.Point(759, 16);
+            this.btnCerrar.Location = new System.Drawing.Point(755, 16);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(25, 25);
             this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -736,6 +772,8 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.tabPage2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage2.Controls.Add(this.nuevomascota);
             this.tabPage2.Controls.Add(this.textBoxPropietario);
             this.tabPage2.Controls.Add(this.textBoxEspecie);
             this.tabPage2.Controls.Add(this.textBoxRaza);
@@ -750,7 +788,9 @@
             this.tabPage2.Controls.Add(this.panel12);
             this.tabPage2.Controls.Add(this.panel7);
             this.tabPage2.Controls.Add(this.dataGridView1);
+            this.tabPage2.Controls.Add(this.pictureBox32);
             this.tabPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage2.ForeColor = System.Drawing.Color.Black;
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -758,37 +798,47 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Mascota";
             // 
+            // nuevomascota
+            // 
+            this.nuevomascota.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nuevomascota.Location = new System.Drawing.Point(469, 216);
+            this.nuevomascota.Name = "nuevomascota";
+            this.nuevomascota.Size = new System.Drawing.Size(109, 59);
+            this.nuevomascota.TabIndex = 21;
+            this.nuevomascota.Text = "Nuevo";
+            this.nuevomascota.UseVisualStyleBackColor = true;
+            // 
             // textBoxPropietario
             // 
-            this.textBoxPropietario.Location = new System.Drawing.Point(347, 228);
+            this.textBoxPropietario.Location = new System.Drawing.Point(348, 249);
             this.textBoxPropietario.Name = "textBoxPropietario";
             this.textBoxPropietario.Size = new System.Drawing.Size(100, 26);
             this.textBoxPropietario.TabIndex = 20;
             // 
             // textBoxEspecie
             // 
-            this.textBoxEspecie.Location = new System.Drawing.Point(347, 132);
+            this.textBoxEspecie.Location = new System.Drawing.Point(348, 150);
             this.textBoxEspecie.Name = "textBoxEspecie";
             this.textBoxEspecie.Size = new System.Drawing.Size(100, 26);
             this.textBoxEspecie.TabIndex = 19;
             // 
             // textBoxRaza
             // 
-            this.textBoxRaza.Location = new System.Drawing.Point(347, 164);
+            this.textBoxRaza.Location = new System.Drawing.Point(348, 182);
             this.textBoxRaza.Name = "textBoxRaza";
             this.textBoxRaza.Size = new System.Drawing.Size(100, 26);
             this.textBoxRaza.TabIndex = 18;
             // 
             // textBoxAñoNacimiento
             // 
-            this.textBoxAñoNacimiento.Location = new System.Drawing.Point(347, 196);
+            this.textBoxAñoNacimiento.Location = new System.Drawing.Point(348, 216);
             this.textBoxAñoNacimiento.Name = "textBoxAñoNacimiento";
             this.textBoxAñoNacimiento.Size = new System.Drawing.Size(100, 26);
             this.textBoxAñoNacimiento.TabIndex = 17;
             // 
             // textBoxMascota
             // 
-            this.textBoxMascota.Location = new System.Drawing.Point(347, 100);
+            this.textBoxMascota.Location = new System.Drawing.Point(348, 117);
             this.textBoxMascota.Name = "textBoxMascota";
             this.textBoxMascota.Size = new System.Drawing.Size(100, 26);
             this.textBoxMascota.TabIndex = 16;
@@ -796,9 +846,9 @@
             // guardarmascota
             // 
             this.guardarmascota.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guardarmascota.Location = new System.Drawing.Point(469, 99);
+            this.guardarmascota.Location = new System.Drawing.Point(469, 117);
             this.guardarmascota.Name = "guardarmascota";
-            this.guardarmascota.Size = new System.Drawing.Size(318, 28);
+            this.guardarmascota.Size = new System.Drawing.Size(109, 59);
             this.guardarmascota.TabIndex = 15;
             this.guardarmascota.Text = "Guardar";
             this.guardarmascota.UseVisualStyleBackColor = true;
@@ -808,7 +858,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(192, 243);
+            this.label6.Location = new System.Drawing.Point(193, 255);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(96, 20);
             this.label6.TabIndex = 14;
@@ -818,7 +868,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(192, 210);
+            this.label5.Location = new System.Drawing.Point(193, 222);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(135, 20);
             this.label5.TabIndex = 12;
@@ -828,7 +878,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(192, 142);
+            this.label4.Location = new System.Drawing.Point(193, 154);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(73, 20);
             this.label4.TabIndex = 10;
@@ -838,7 +888,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(192, 176);
+            this.label3.Location = new System.Drawing.Point(193, 188);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(51, 20);
             this.label3.TabIndex = 8;
@@ -848,7 +898,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(192, 108);
+            this.label2.Location = new System.Drawing.Point(193, 120);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(149, 20);
             this.label2.TabIndex = 6;
@@ -874,7 +924,7 @@
             this.panel12.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel12.Location = new System.Drawing.Point(3, 53);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(182, 407);
+            this.panel12.Size = new System.Drawing.Size(182, 403);
             this.panel12.TabIndex = 5;
             // 
             // panel42
@@ -1057,6 +1107,8 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel7.Controls.Add(this.label17);
             this.panel7.Controls.Add(this.pictureBox2);
             this.panel7.Controls.Add(this.pictureBox3);
             this.panel7.Controls.Add(this.pictureBox4);
@@ -1064,15 +1116,26 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.Location = new System.Drawing.Point(3, 3);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(794, 50);
+            this.panel7.Size = new System.Drawing.Size(790, 50);
             this.panel7.TabIndex = 1;
+            // 
+            // label17
+            // 
+            this.label17.Font = new System.Drawing.Font("Consolas", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.Red;
+            this.label17.Location = new System.Drawing.Point(50, 10);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(574, 31);
+            this.label17.TabIndex = 5;
+            this.label17.Text = "VETERINARIO RIFEÑO";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::VeterinarioRifeño.Properties.Resources.restaurar_32;
-            this.pictureBox2.Location = new System.Drawing.Point(728, 16);
+            this.pictureBox2.Location = new System.Drawing.Point(720, 16);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(25, 25);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1085,7 +1148,7 @@
             this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::VeterinarioRifeño.Properties.Resources.minimizar_32;
-            this.pictureBox3.Location = new System.Drawing.Point(697, 16);
+            this.pictureBox3.Location = new System.Drawing.Point(689, 16);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(25, 25);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1097,7 +1160,7 @@
             this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::VeterinarioRifeño.Properties.Resources.maximizar_32;
-            this.pictureBox4.Location = new System.Drawing.Point(728, 16);
+            this.pictureBox4.Location = new System.Drawing.Point(720, 16);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(25, 25);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1109,7 +1172,7 @@
             this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = global::VeterinarioRifeño.Properties.Resources.close_32;
-            this.pictureBox5.Location = new System.Drawing.Point(759, 16);
+            this.pictureBox5.Location = new System.Drawing.Point(751, 16);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(25, 25);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1120,31 +1183,44 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeight = 25;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView1.EnableHeadersVisualStyles = false;
-            this.dataGridView1.Location = new System.Drawing.Point(191, 272);
+            this.dataGridView1.Location = new System.Drawing.Point(191, 290);
             this.dataGridView1.Name = "dataGridView1";
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.White;
-            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle14;
-            this.dataGridView1.Size = new System.Drawing.Size(596, 183);
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView1.Size = new System.Drawing.Size(559, 165);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            // 
+            // pictureBox32
+            // 
+            this.pictureBox32.Image = global::VeterinarioRifeño.Properties.Resources.mascota_grande_32;
+            this.pictureBox32.Location = new System.Drawing.Point(597, 129);
+            this.pictureBox32.Name = "pictureBox32";
+            this.pictureBox32.Size = new System.Drawing.Size(153, 146);
+            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox32.TabIndex = 22;
+            this.pictureBox32.TabStop = false;
             // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.tabPage3.Controls.Add(this.pictureBox33);
+            this.tabPage3.Controls.Add(this.button37);
             this.tabPage3.Controls.Add(this.registrarvacuna);
             this.tabPage3.Controls.Add(this.textBoxPropietario1);
             this.tabPage3.Controls.Add(this.textBoxNombre1);
@@ -1168,13 +1244,34 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Vacuna";
             // 
+            // pictureBox33
+            // 
+            this.pictureBox33.Image = global::VeterinarioRifeño.Properties.Resources.vacuna_32;
+            this.pictureBox33.Location = new System.Drawing.Point(605, 128);
+            this.pictureBox33.Name = "pictureBox33";
+            this.pictureBox33.Size = new System.Drawing.Size(149, 130);
+            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox33.TabIndex = 32;
+            this.pictureBox33.TabStop = false;
+            // 
+            // button37
+            // 
+            this.button37.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button37.ForeColor = System.Drawing.Color.Black;
+            this.button37.Location = new System.Drawing.Point(469, 196);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(100, 62);
+            this.button37.TabIndex = 31;
+            this.button37.Text = "Nuevo";
+            this.button37.UseVisualStyleBackColor = true;
+            // 
             // registrarvacuna
             // 
             this.registrarvacuna.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.registrarvacuna.ForeColor = System.Drawing.Color.Black;
-            this.registrarvacuna.Location = new System.Drawing.Point(460, 113);
+            this.registrarvacuna.Location = new System.Drawing.Point(469, 128);
             this.registrarvacuna.Name = "registrarvacuna";
-            this.registrarvacuna.Size = new System.Drawing.Size(318, 28);
+            this.registrarvacuna.Size = new System.Drawing.Size(100, 62);
             this.registrarvacuna.TabIndex = 30;
             this.registrarvacuna.Text = "Guardar";
             this.registrarvacuna.UseVisualStyleBackColor = true;
@@ -1182,28 +1279,28 @@
             // 
             // textBoxPropietario1
             // 
-            this.textBoxPropietario1.Location = new System.Drawing.Point(344, 217);
+            this.textBoxPropietario1.Location = new System.Drawing.Point(348, 232);
             this.textBoxPropietario1.Name = "textBoxPropietario1";
             this.textBoxPropietario1.Size = new System.Drawing.Size(100, 26);
             this.textBoxPropietario1.TabIndex = 29;
             // 
             // textBoxNombre1
             // 
-            this.textBoxNombre1.Location = new System.Drawing.Point(344, 115);
+            this.textBoxNombre1.Location = new System.Drawing.Point(348, 130);
             this.textBoxNombre1.Name = "textBoxNombre1";
             this.textBoxNombre1.Size = new System.Drawing.Size(100, 26);
             this.textBoxNombre1.TabIndex = 28;
             // 
             // textBoxTipoVacuna
             // 
-            this.textBoxTipoVacuna.Location = new System.Drawing.Point(344, 149);
+            this.textBoxTipoVacuna.Location = new System.Drawing.Point(348, 164);
             this.textBoxTipoVacuna.Name = "textBoxTipoVacuna";
             this.textBoxTipoVacuna.Size = new System.Drawing.Size(100, 26);
             this.textBoxTipoVacuna.TabIndex = 27;
             // 
             // textBoxSemana
             // 
-            this.textBoxSemana.Location = new System.Drawing.Point(344, 181);
+            this.textBoxSemana.Location = new System.Drawing.Point(348, 196);
             this.textBoxSemana.Name = "textBoxSemana";
             this.textBoxSemana.Size = new System.Drawing.Size(100, 26);
             this.textBoxSemana.TabIndex = 26;
@@ -1212,7 +1309,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(189, 223);
+            this.label7.Location = new System.Drawing.Point(193, 238);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(96, 20);
             this.label7.TabIndex = 24;
@@ -1231,7 +1328,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(189, 155);
+            this.label9.Location = new System.Drawing.Point(193, 170);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(114, 20);
             this.label9.TabIndex = 20;
@@ -1241,7 +1338,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(189, 189);
+            this.label10.Location = new System.Drawing.Point(193, 204);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(80, 20);
             this.label10.TabIndex = 18;
@@ -1251,7 +1348,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(189, 121);
+            this.label11.Location = new System.Drawing.Point(193, 136);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(149, 20);
             this.label11.TabIndex = 16;
@@ -1261,26 +1358,26 @@
             // 
             this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView2.ColumnHeadersHeight = 25;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView2.EnableHeadersVisualStyles = false;
             this.dataGridView2.Location = new System.Drawing.Point(196, 272);
             this.dataGridView2.Name = "dataGridView2";
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.White;
-            this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle12;
-            this.dataGridView2.Size = new System.Drawing.Size(596, 183);
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+            this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.dataGridView2.Size = new System.Drawing.Size(558, 183);
             this.dataGridView2.TabIndex = 14;
             // 
             // panel43
@@ -1484,22 +1581,36 @@
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel8.Controls.Add(this.label22);
             this.panel8.Controls.Add(this.pictureBox6);
             this.panel8.Controls.Add(this.pictureBox7);
             this.panel8.Controls.Add(this.pictureBox8);
             this.panel8.Controls.Add(this.pictureBox9);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel8.Font = new System.Drawing.Font("Vivaldi", 8.25F);
             this.panel8.Location = new System.Drawing.Point(3, 3);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(794, 50);
             this.panel8.TabIndex = 1;
+            // 
+            // label22
+            // 
+            this.label22.Font = new System.Drawing.Font("Consolas", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.Red;
+            this.label22.Location = new System.Drawing.Point(55, 10);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(574, 31);
+            this.label22.TabIndex = 6;
+            this.label22.Text = "VETERINARIO RIFEÑO";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox6
             // 
             this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox6.Image = global::VeterinarioRifeño.Properties.Resources.restaurar_32;
-            this.pictureBox6.Location = new System.Drawing.Point(728, 16);
+            this.pictureBox6.Location = new System.Drawing.Point(724, 16);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(25, 25);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1512,7 +1623,7 @@
             this.pictureBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox7.Image = global::VeterinarioRifeño.Properties.Resources.minimizar_32;
-            this.pictureBox7.Location = new System.Drawing.Point(697, 16);
+            this.pictureBox7.Location = new System.Drawing.Point(693, 16);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(25, 25);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1524,7 +1635,7 @@
             this.pictureBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox8.Image = global::VeterinarioRifeño.Properties.Resources.maximizar_32;
-            this.pictureBox8.Location = new System.Drawing.Point(728, 16);
+            this.pictureBox8.Location = new System.Drawing.Point(724, 16);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(25, 25);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1536,7 +1647,7 @@
             this.pictureBox9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox9.Image = global::VeterinarioRifeño.Properties.Resources.close_32;
-            this.pictureBox9.Location = new System.Drawing.Point(759, 16);
+            this.pictureBox9.Location = new System.Drawing.Point(755, 16);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(25, 25);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1546,11 +1657,13 @@
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.tabPage4.Controls.Add(this.pictureBox34);
             this.tabPage4.Controls.Add(this.button38);
-            this.tabPage4.Controls.Add(this.textBox5);
-            this.tabPage4.Controls.Add(this.textBox6);
-            this.tabPage4.Controls.Add(this.textBox7);
-            this.tabPage4.Controls.Add(this.textBox8);
+            this.tabPage4.Controls.Add(this.registrarpeluqueria);
+            this.tabPage4.Controls.Add(this.textBoxPropietario2);
+            this.tabPage4.Controls.Add(this.textBoxNombre2);
+            this.tabPage4.Controls.Add(this.textBoxTipoCorte);
+            this.tabPage4.Controls.Add(this.textBoxPeluquero);
             this.tabPage4.Controls.Add(this.label12);
             this.tabPage4.Controls.Add(this.label14);
             this.tabPage4.Controls.Add(this.label15);
@@ -1566,50 +1679,71 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Peluquería";
             // 
+            // pictureBox34
+            // 
+            this.pictureBox34.Image = global::VeterinarioRifeño.Properties.Resources.peluquería_32;
+            this.pictureBox34.Location = new System.Drawing.Point(595, 132);
+            this.pictureBox34.Name = "pictureBox34";
+            this.pictureBox34.Size = new System.Drawing.Size(159, 122);
+            this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox34.TabIndex = 33;
+            this.pictureBox34.TabStop = false;
+            // 
             // button38
             // 
             this.button38.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button38.ForeColor = System.Drawing.Color.Black;
-            this.button38.Location = new System.Drawing.Point(479, 106);
+            this.button38.Location = new System.Drawing.Point(479, 196);
             this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(318, 28);
-            this.button38.TabIndex = 31;
-            this.button38.Text = "Guardar";
+            this.button38.Size = new System.Drawing.Size(97, 58);
+            this.button38.TabIndex = 32;
+            this.button38.Text = "Nuevo";
             this.button38.UseVisualStyleBackColor = true;
             // 
-            // textBox5
+            // registrarpeluqueria
             // 
-            this.textBox5.Location = new System.Drawing.Point(370, 202);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 26);
-            this.textBox5.TabIndex = 27;
+            this.registrarpeluqueria.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.registrarpeluqueria.ForeColor = System.Drawing.Color.Black;
+            this.registrarpeluqueria.Location = new System.Drawing.Point(479, 130);
+            this.registrarpeluqueria.Name = "registrarpeluqueria";
+            this.registrarpeluqueria.Size = new System.Drawing.Size(97, 60);
+            this.registrarpeluqueria.TabIndex = 31;
+            this.registrarpeluqueria.Text = "Guardar";
+            this.registrarpeluqueria.UseVisualStyleBackColor = true;
+            this.registrarpeluqueria.Click += new System.EventHandler(this.registrarpeluqueria_Click);
             // 
-            // textBox6
+            // textBoxPropietario2
             // 
-            this.textBox6.Location = new System.Drawing.Point(370, 106);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 26);
-            this.textBox6.TabIndex = 26;
+            this.textBoxPropietario2.Location = new System.Drawing.Point(376, 228);
+            this.textBoxPropietario2.Name = "textBoxPropietario2";
+            this.textBoxPropietario2.Size = new System.Drawing.Size(100, 26);
+            this.textBoxPropietario2.TabIndex = 27;
             // 
-            // textBox7
+            // textBoxNombre2
             // 
-            this.textBox7.Location = new System.Drawing.Point(370, 138);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 26);
-            this.textBox7.TabIndex = 25;
+            this.textBoxNombre2.Location = new System.Drawing.Point(376, 132);
+            this.textBoxNombre2.Name = "textBoxNombre2";
+            this.textBoxNombre2.Size = new System.Drawing.Size(100, 26);
+            this.textBoxNombre2.TabIndex = 26;
             // 
-            // textBox8
+            // textBoxTipoCorte
             // 
-            this.textBox8.Location = new System.Drawing.Point(370, 170);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 26);
-            this.textBox8.TabIndex = 24;
+            this.textBoxTipoCorte.Location = new System.Drawing.Point(376, 164);
+            this.textBoxTipoCorte.Name = "textBoxTipoCorte";
+            this.textBoxTipoCorte.Size = new System.Drawing.Size(100, 26);
+            this.textBoxTipoCorte.TabIndex = 25;
+            // 
+            // textBoxPeluquero
+            // 
+            this.textBoxPeluquero.Location = new System.Drawing.Point(376, 196);
+            this.textBoxPeluquero.Name = "textBoxPeluquero";
+            this.textBoxPeluquero.Size = new System.Drawing.Size(100, 26);
+            this.textBoxPeluquero.TabIndex = 24;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(195, 214);
+            this.label12.Location = new System.Drawing.Point(201, 240);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(101, 20);
             this.label12.TabIndex = 22;
@@ -1619,7 +1753,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(195, 146);
+            this.label14.Location = new System.Drawing.Point(201, 172);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(137, 20);
             this.label14.TabIndex = 20;
@@ -1629,7 +1763,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(195, 180);
+            this.label15.Location = new System.Drawing.Point(201, 206);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(162, 20);
             this.label15.TabIndex = 18;
@@ -1639,36 +1773,36 @@
             // 
             this.label16.AutoSize = true;
             this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(195, 112);
+            this.label16.Location = new System.Drawing.Point(201, 138);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(140, 20);
+            this.label16.Size = new System.Drawing.Size(149, 20);
             this.label16.TabIndex = 16;
-            this.label16.Text = "Nombre Macota:";
+            this.label16.Text = "Nombre Mascota:";
             // 
             // dataGridView3
             // 
             this.dataGridView3.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle15.BackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView3.ColumnHeadersHeight = 25;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView3.EnableHeadersVisualStyles = false;
             this.dataGridView3.Location = new System.Drawing.Point(196, 272);
             this.dataGridView3.Name = "dataGridView3";
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.White;
-            this.dataGridView3.RowsDefaultCellStyle = dataGridViewCellStyle16;
-            this.dataGridView3.Size = new System.Drawing.Size(596, 183);
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
+            this.dataGridView3.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            this.dataGridView3.Size = new System.Drawing.Size(558, 183);
             this.dataGridView3.TabIndex = 7;
             // 
             // panel24
@@ -1873,6 +2007,8 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel9.Controls.Add(this.label27);
             this.panel9.Controls.Add(this.pictureBox10);
             this.panel9.Controls.Add(this.pictureBox11);
             this.panel9.Controls.Add(this.pictureBox12);
@@ -1883,12 +2019,23 @@
             this.panel9.Size = new System.Drawing.Size(794, 50);
             this.panel9.TabIndex = 1;
             // 
+            // label27
+            // 
+            this.label27.Font = new System.Drawing.Font("Consolas", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.ForeColor = System.Drawing.Color.Red;
+            this.label27.Location = new System.Drawing.Point(54, 10);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(574, 31);
+            this.label27.TabIndex = 6;
+            this.label27.Text = "VETERINARIO RIFEÑO";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // pictureBox10
             // 
             this.pictureBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox10.Image = global::VeterinarioRifeño.Properties.Resources.restaurar_32;
-            this.pictureBox10.Location = new System.Drawing.Point(728, 16);
+            this.pictureBox10.Location = new System.Drawing.Point(724, 16);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(25, 25);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1901,7 +2048,7 @@
             this.pictureBox11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox11.Image = global::VeterinarioRifeño.Properties.Resources.minimizar_32;
-            this.pictureBox11.Location = new System.Drawing.Point(697, 16);
+            this.pictureBox11.Location = new System.Drawing.Point(693, 16);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(25, 25);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1913,7 +2060,7 @@
             this.pictureBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox12.Image = global::VeterinarioRifeño.Properties.Resources.maximizar_32;
-            this.pictureBox12.Location = new System.Drawing.Point(728, 16);
+            this.pictureBox12.Location = new System.Drawing.Point(724, 16);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(25, 25);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1925,7 +2072,7 @@
             this.pictureBox13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox13.Image = global::VeterinarioRifeño.Properties.Resources.close_32;
-            this.pictureBox13.Location = new System.Drawing.Point(759, 16);
+            this.pictureBox13.Location = new System.Drawing.Point(755, 16);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(25, 25);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -1935,16 +2082,17 @@
             // tabPage5
             // 
             this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.tabPage5.Controls.Add(this.label17);
-            this.tabPage5.Controls.Add(this.comboBox16);
+            this.tabPage5.Controls.Add(this.pictureBox35);
+            this.tabPage5.Controls.Add(this.button40);
+            this.tabPage5.Controls.Add(this.textBoxPropietario3);
+            this.tabPage5.Controls.Add(this.textBoxNombre3);
+            this.tabPage5.Controls.Add(this.textBoxDia);
+            this.tabPage5.Controls.Add(this.textBoxHora);
+            this.tabPage5.Controls.Add(this.registrarcita);
             this.tabPage5.Controls.Add(this.label18);
-            this.tabPage5.Controls.Add(this.comboBox17);
             this.tabPage5.Controls.Add(this.label19);
-            this.tabPage5.Controls.Add(this.comboBox18);
             this.tabPage5.Controls.Add(this.label20);
-            this.tabPage5.Controls.Add(this.comboBox19);
             this.tabPage5.Controls.Add(this.label21);
-            this.tabPage5.Controls.Add(this.comboBox20);
             this.tabPage5.Controls.Add(this.dataGridView4);
             this.tabPage5.Controls.Add(this.panel30);
             this.tabPage5.Controls.Add(this.panel10);
@@ -1956,120 +2104,130 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Agenda";
             // 
-            // label17
+            // pictureBox35
             // 
-            this.label17.AutoSize = true;
-            this.label17.ForeColor = System.Drawing.Color.White;
-            this.label17.Location = new System.Drawing.Point(190, 222);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(149, 20);
-            this.label17.TabIndex = 24;
-            this.label17.Text = "Nombre Mascota:";
+            this.pictureBox35.Image = global::VeterinarioRifeño.Properties.Resources.agenda_32;
+            this.pictureBox35.Location = new System.Drawing.Point(610, 127);
+            this.pictureBox35.Name = "pictureBox35";
+            this.pictureBox35.Size = new System.Drawing.Size(144, 121);
+            this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox35.TabIndex = 38;
+            this.pictureBox35.TabStop = false;
             // 
-            // comboBox16
+            // button40
             // 
-            this.comboBox16.FormattingEnabled = true;
-            this.comboBox16.Location = new System.Drawing.Point(359, 214);
-            this.comboBox16.Name = "comboBox16";
-            this.comboBox16.Size = new System.Drawing.Size(213, 28);
-            this.comboBox16.TabIndex = 23;
+            this.button40.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button40.Location = new System.Drawing.Point(506, 190);
+            this.button40.Name = "button40";
+            this.button40.Size = new System.Drawing.Size(97, 58);
+            this.button40.TabIndex = 37;
+            this.button40.Text = "Nuevo";
+            this.button40.UseVisualStyleBackColor = true;
+            // 
+            // textBoxPropietario3
+            // 
+            this.textBoxPropietario3.Location = new System.Drawing.Point(379, 222);
+            this.textBoxPropietario3.Name = "textBoxPropietario3";
+            this.textBoxPropietario3.Size = new System.Drawing.Size(100, 26);
+            this.textBoxPropietario3.TabIndex = 36;
+            // 
+            // textBoxNombre3
+            // 
+            this.textBoxNombre3.Location = new System.Drawing.Point(379, 127);
+            this.textBoxNombre3.Name = "textBoxNombre3";
+            this.textBoxNombre3.Size = new System.Drawing.Size(100, 26);
+            this.textBoxNombre3.TabIndex = 35;
+            // 
+            // textBoxDia
+            // 
+            this.textBoxDia.Location = new System.Drawing.Point(379, 158);
+            this.textBoxDia.Name = "textBoxDia";
+            this.textBoxDia.Size = new System.Drawing.Size(100, 26);
+            this.textBoxDia.TabIndex = 34;
+            // 
+            // textBoxHora
+            // 
+            this.textBoxHora.Location = new System.Drawing.Point(379, 190);
+            this.textBoxHora.Name = "textBoxHora";
+            this.textBoxHora.Size = new System.Drawing.Size(100, 26);
+            this.textBoxHora.TabIndex = 33;
+            // 
+            // registrarcita
+            // 
+            this.registrarcita.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.registrarcita.ForeColor = System.Drawing.Color.Black;
+            this.registrarcita.Location = new System.Drawing.Point(506, 125);
+            this.registrarcita.Name = "registrarcita";
+            this.registrarcita.Size = new System.Drawing.Size(97, 59);
+            this.registrarcita.TabIndex = 32;
+            this.registrarcita.Text = "Guardar";
+            this.registrarcita.UseVisualStyleBackColor = true;
+            this.registrarcita.Click += new System.EventHandler(this.registrarcita_Click);
             // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(190, 189);
+            this.label18.Location = new System.Drawing.Point(200, 238);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(149, 20);
+            this.label18.Size = new System.Drawing.Size(96, 20);
             this.label18.TabIndex = 22;
-            this.label18.Text = "Nombre Mascota:";
-            // 
-            // comboBox17
-            // 
-            this.comboBox17.FormattingEnabled = true;
-            this.comboBox17.Location = new System.Drawing.Point(359, 181);
-            this.comboBox17.Name = "comboBox17";
-            this.comboBox17.Size = new System.Drawing.Size(213, 28);
-            this.comboBox17.TabIndex = 21;
+            this.label18.Text = "Propietario";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
             this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(190, 121);
+            this.label19.Location = new System.Drawing.Point(200, 170);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(149, 20);
+            this.label19.Size = new System.Drawing.Size(73, 20);
             this.label19.TabIndex = 20;
-            this.label19.Text = "Nombre Mascota:";
-            // 
-            // comboBox18
-            // 
-            this.comboBox18.FormattingEnabled = true;
-            this.comboBox18.Location = new System.Drawing.Point(359, 113);
-            this.comboBox18.Name = "comboBox18";
-            this.comboBox18.Size = new System.Drawing.Size(213, 28);
-            this.comboBox18.TabIndex = 19;
+            this.label19.Text = "Dia Cita";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
             this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(190, 155);
+            this.label20.Location = new System.Drawing.Point(200, 204);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(149, 20);
+            this.label20.Size = new System.Drawing.Size(85, 20);
             this.label20.TabIndex = 18;
-            this.label20.Text = "Nombre Mascota:";
-            // 
-            // comboBox19
-            // 
-            this.comboBox19.FormattingEnabled = true;
-            this.comboBox19.Location = new System.Drawing.Point(359, 147);
-            this.comboBox19.Name = "comboBox19";
-            this.comboBox19.Size = new System.Drawing.Size(213, 28);
-            this.comboBox19.TabIndex = 17;
+            this.label20.Text = "Hora Cita";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
             this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(190, 87);
+            this.label21.Location = new System.Drawing.Point(200, 136);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(149, 20);
             this.label21.TabIndex = 16;
             this.label21.Text = "Nombre Mascota:";
             // 
-            // comboBox20
-            // 
-            this.comboBox20.FormattingEnabled = true;
-            this.comboBox20.Location = new System.Drawing.Point(359, 79);
-            this.comboBox20.Name = "comboBox20";
-            this.comboBox20.Size = new System.Drawing.Size(213, 28);
-            this.comboBox20.TabIndex = 15;
-            // 
             // dataGridView4
             // 
             this.dataGridView4.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dataGridView4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridView4.ColumnHeadersHeight = 25;
             this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView4.EnableHeadersVisualStyles = false;
             this.dataGridView4.Location = new System.Drawing.Point(196, 272);
             this.dataGridView4.Name = "dataGridView4";
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.White;
-            this.dataGridView4.RowsDefaultCellStyle = dataGridViewCellStyle18;
-            this.dataGridView4.Size = new System.Drawing.Size(596, 183);
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.White;
+            this.dataGridView4.RowsDefaultCellStyle = dataGridViewCellStyle8;
+            this.dataGridView4.Size = new System.Drawing.Size(558, 183);
             this.dataGridView4.TabIndex = 7;
             // 
             // panel30
@@ -2274,6 +2432,8 @@
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel10.Controls.Add(this.label28);
             this.panel10.Controls.Add(this.pictureBox14);
             this.panel10.Controls.Add(this.pictureBox15);
             this.panel10.Controls.Add(this.pictureBox16);
@@ -2284,12 +2444,23 @@
             this.panel10.Size = new System.Drawing.Size(794, 50);
             this.panel10.TabIndex = 1;
             // 
+            // label28
+            // 
+            this.label28.Font = new System.Drawing.Font("Consolas", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.Color.Red;
+            this.label28.Location = new System.Drawing.Point(56, 10);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(574, 31);
+            this.label28.TabIndex = 6;
+            this.label28.Text = "VETERINARIO RIFEÑO";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // pictureBox14
             // 
             this.pictureBox14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox14.Image = global::VeterinarioRifeño.Properties.Resources.restaurar_32;
-            this.pictureBox14.Location = new System.Drawing.Point(728, 16);
+            this.pictureBox14.Location = new System.Drawing.Point(724, 16);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(25, 25);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2302,7 +2473,7 @@
             this.pictureBox15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox15.Image = global::VeterinarioRifeño.Properties.Resources.minimizar_32;
-            this.pictureBox15.Location = new System.Drawing.Point(697, 16);
+            this.pictureBox15.Location = new System.Drawing.Point(693, 16);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(25, 25);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2314,7 +2485,7 @@
             this.pictureBox16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox16.Image = global::VeterinarioRifeño.Properties.Resources.maximizar_32;
-            this.pictureBox16.Location = new System.Drawing.Point(728, 16);
+            this.pictureBox16.Location = new System.Drawing.Point(724, 16);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(25, 25);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2326,7 +2497,7 @@
             this.pictureBox17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox17.Image = global::VeterinarioRifeño.Properties.Resources.close_32;
-            this.pictureBox17.Location = new System.Drawing.Point(759, 16);
+            this.pictureBox17.Location = new System.Drawing.Point(755, 16);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(25, 25);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2336,11 +2507,14 @@
             // tabPage6
             // 
             this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.tabPage6.Controls.Add(this.button39);
-            this.tabPage6.Controls.Add(this.textBox9);
-            this.tabPage6.Controls.Add(this.textBox10);
-            this.tabPage6.Controls.Add(this.textBox11);
-            this.tabPage6.Controls.Add(this.textBox12);
+            this.tabPage6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage6.Controls.Add(this.pictureBox36);
+            this.tabPage6.Controls.Add(this.button41);
+            this.tabPage6.Controls.Add(this.registrarguarderia);
+            this.tabPage6.Controls.Add(this.textBoxResponsable);
+            this.tabPage6.Controls.Add(this.textBoxNombre4);
+            this.tabPage6.Controls.Add(this.textBoxEntrada);
+            this.tabPage6.Controls.Add(this.textBoxSalida);
             this.tabPage6.Controls.Add(this.label23);
             this.tabPage6.Controls.Add(this.label24);
             this.tabPage6.Controls.Add(this.label25);
@@ -2355,50 +2529,71 @@
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Guardería";
             // 
-            // button39
+            // pictureBox36
             // 
-            this.button39.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button39.ForeColor = System.Drawing.Color.Black;
-            this.button39.Location = new System.Drawing.Point(470, 113);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(318, 28);
-            this.button39.TabIndex = 31;
-            this.button39.Text = "Guardar";
-            this.button39.UseVisualStyleBackColor = true;
+            this.pictureBox36.Image = global::VeterinarioRifeño.Properties.Resources.guardería_32;
+            this.pictureBox36.Location = new System.Drawing.Point(581, 132);
+            this.pictureBox36.Name = "pictureBox36";
+            this.pictureBox36.Size = new System.Drawing.Size(169, 125);
+            this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox36.TabIndex = 39;
+            this.pictureBox36.TabStop = false;
             // 
-            // textBox9
+            // button41
             // 
-            this.textBox9.Location = new System.Drawing.Point(364, 214);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 26);
-            this.textBox9.TabIndex = 27;
+            this.button41.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button41.Location = new System.Drawing.Point(469, 199);
+            this.button41.Name = "button41";
+            this.button41.Size = new System.Drawing.Size(97, 58);
+            this.button41.TabIndex = 38;
+            this.button41.Text = "Nuevo";
+            this.button41.UseVisualStyleBackColor = true;
             // 
-            // textBox10
+            // registrarguarderia
             // 
-            this.textBox10.Location = new System.Drawing.Point(364, 115);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 26);
-            this.textBox10.TabIndex = 26;
+            this.registrarguarderia.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.registrarguarderia.ForeColor = System.Drawing.Color.Black;
+            this.registrarguarderia.Location = new System.Drawing.Point(469, 130);
+            this.registrarguarderia.Name = "registrarguarderia";
+            this.registrarguarderia.Size = new System.Drawing.Size(97, 60);
+            this.registrarguarderia.TabIndex = 31;
+            this.registrarguarderia.Text = "Guardar";
+            this.registrarguarderia.UseVisualStyleBackColor = true;
+            this.registrarguarderia.Click += new System.EventHandler(this.registrarguarderia_Click);
             // 
-            // textBox11
+            // textBoxResponsable
             // 
-            this.textBox11.Location = new System.Drawing.Point(364, 147);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 26);
-            this.textBox11.TabIndex = 25;
+            this.textBoxResponsable.Location = new System.Drawing.Point(356, 231);
+            this.textBoxResponsable.Name = "textBoxResponsable";
+            this.textBoxResponsable.Size = new System.Drawing.Size(100, 26);
+            this.textBoxResponsable.TabIndex = 27;
             // 
-            // textBox12
+            // textBoxNombre4
             // 
-            this.textBox12.Location = new System.Drawing.Point(364, 179);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(100, 26);
-            this.textBox12.TabIndex = 24;
+            this.textBoxNombre4.Location = new System.Drawing.Point(356, 132);
+            this.textBoxNombre4.Name = "textBoxNombre4";
+            this.textBoxNombre4.Size = new System.Drawing.Size(100, 26);
+            this.textBoxNombre4.TabIndex = 26;
+            // 
+            // textBoxEntrada
+            // 
+            this.textBoxEntrada.Location = new System.Drawing.Point(356, 164);
+            this.textBoxEntrada.Name = "textBoxEntrada";
+            this.textBoxEntrada.Size = new System.Drawing.Size(100, 26);
+            this.textBoxEntrada.TabIndex = 25;
+            // 
+            // textBoxSalida
+            // 
+            this.textBoxSalida.Location = new System.Drawing.Point(356, 196);
+            this.textBoxSalida.Name = "textBoxSalida";
+            this.textBoxSalida.Size = new System.Drawing.Size(100, 26);
+            this.textBoxSalida.TabIndex = 24;
             // 
             // label23
             // 
             this.label23.AutoSize = true;
             this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(199, 223);
+            this.label23.Location = new System.Drawing.Point(191, 240);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(119, 20);
             this.label23.TabIndex = 22;
@@ -2408,7 +2603,7 @@
             // 
             this.label24.AutoSize = true;
             this.label24.ForeColor = System.Drawing.Color.White;
-            this.label24.Location = new System.Drawing.Point(199, 155);
+            this.label24.Location = new System.Drawing.Point(191, 172);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(122, 20);
             this.label24.TabIndex = 20;
@@ -2418,7 +2613,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(199, 189);
+            this.label25.Location = new System.Drawing.Point(191, 206);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(108, 20);
             this.label25.TabIndex = 18;
@@ -2428,7 +2623,7 @@
             // 
             this.label26.AutoSize = true;
             this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(199, 121);
+            this.label26.Location = new System.Drawing.Point(191, 138);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(149, 20);
             this.label26.TabIndex = 16;
@@ -2438,25 +2633,25 @@
             // 
             this.dataGridView5.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dataGridView5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle19.BackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridView5.ColumnHeadersHeight = 25;
             this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridView5.EnableHeadersVisualStyles = false;
             this.dataGridView5.Location = new System.Drawing.Point(191, 272);
             this.dataGridView5.Name = "dataGridView5";
-            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.Color.White;
-            this.dataGridView5.RowsDefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(66)))), ((int)(((byte)(91)))));
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.White;
+            this.dataGridView5.RowsDefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridView5.Size = new System.Drawing.Size(596, 183);
             this.dataGridView5.TabIndex = 7;
             // 
@@ -2480,7 +2675,7 @@
             this.panel36.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel36.Location = new System.Drawing.Point(3, 53);
             this.panel36.Name = "panel36";
-            this.panel36.Size = new System.Drawing.Size(182, 407);
+            this.panel36.Size = new System.Drawing.Size(182, 403);
             this.panel36.TabIndex = 6;
             // 
             // panel46
@@ -2662,6 +2857,8 @@
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel11.Controls.Add(this.label29);
             this.panel11.Controls.Add(this.pictureBox18);
             this.panel11.Controls.Add(this.pictureBox19);
             this.panel11.Controls.Add(this.pictureBox20);
@@ -2669,15 +2866,26 @@
             this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel11.Location = new System.Drawing.Point(3, 3);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(794, 50);
+            this.panel11.Size = new System.Drawing.Size(790, 50);
             this.panel11.TabIndex = 1;
+            // 
+            // label29
+            // 
+            this.label29.Font = new System.Drawing.Font("Consolas", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.Red;
+            this.label29.Location = new System.Drawing.Point(55, 10);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(574, 31);
+            this.label29.TabIndex = 6;
+            this.label29.Text = "VETERINARIO RIFEÑO";
+            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox18
             // 
             this.pictureBox18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox18.Image = global::VeterinarioRifeño.Properties.Resources.restaurar_32;
-            this.pictureBox18.Location = new System.Drawing.Point(728, 16);
+            this.pictureBox18.Location = new System.Drawing.Point(720, 16);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(25, 25);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2690,7 +2898,7 @@
             this.pictureBox19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox19.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox19.Image = global::VeterinarioRifeño.Properties.Resources.minimizar_32;
-            this.pictureBox19.Location = new System.Drawing.Point(697, 16);
+            this.pictureBox19.Location = new System.Drawing.Point(689, 16);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(25, 25);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2702,7 +2910,7 @@
             this.pictureBox20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox20.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox20.Image = global::VeterinarioRifeño.Properties.Resources.maximizar_32;
-            this.pictureBox20.Location = new System.Drawing.Point(728, 16);
+            this.pictureBox20.Location = new System.Drawing.Point(720, 16);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(25, 25);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2714,7 +2922,7 @@
             this.pictureBox21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox21.Image = global::VeterinarioRifeño.Properties.Resources.close_32;
-            this.pictureBox21.Location = new System.Drawing.Point(759, 16);
+            this.pictureBox21.Location = new System.Drawing.Point(751, 16);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(25, 25);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -2725,6 +2933,25 @@
             // 
             this.horafecha.Enabled = true;
             this.horafecha.Tick += new System.EventHandler(this.horafecha_Tick);
+            // 
+            // pictureBox37
+            // 
+            this.pictureBox37.Image = global::VeterinarioRifeño.Properties.Resources.logo_32;
+            this.pictureBox37.Location = new System.Drawing.Point(357, 15);
+            this.pictureBox37.Name = "pictureBox37";
+            this.pictureBox37.Size = new System.Drawing.Size(212, 206);
+            this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox37.TabIndex = 11;
+            this.pictureBox37.TabStop = false;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(71, 6);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(242, 218);
+            this.groupBox1.TabIndex = 12;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
             // 
             // VentanaPrincipal
             // 
@@ -2758,8 +2985,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.panel18.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
@@ -2771,6 +3000,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.panel24.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
@@ -2782,6 +3012,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             this.panel30.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
@@ -2793,6 +3024,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             this.panel36.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
@@ -2802,6 +3034,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2963,16 +3196,10 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.DataGridView dataGridView3;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.ComboBox comboBox16;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.ComboBox comboBox17;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.ComboBox comboBox18;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.ComboBox comboBox19;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.ComboBox comboBox20;
         private System.Windows.Forms.DataGridView dataGridView4;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
@@ -2992,16 +3219,39 @@
         private System.Windows.Forms.TextBox textBoxNombre1;
         private System.Windows.Forms.TextBox textBoxTipoVacuna;
         private System.Windows.Forms.TextBox textBoxSemana;
+        private System.Windows.Forms.Button registrarpeluqueria;
+        private System.Windows.Forms.TextBox textBoxPropietario2;
+        private System.Windows.Forms.TextBox textBoxNombre2;
+        private System.Windows.Forms.TextBox textBoxTipoCorte;
+        private System.Windows.Forms.TextBox textBoxPeluquero;
+        private System.Windows.Forms.Button registrarguarderia;
+        private System.Windows.Forms.TextBox textBoxResponsable;
+        private System.Windows.Forms.TextBox textBoxNombre4;
+        private System.Windows.Forms.TextBox textBoxEntrada;
+        private System.Windows.Forms.TextBox textBoxSalida;
+        private System.Windows.Forms.Button registrarcita;
+        private System.Windows.Forms.TextBox textBoxPropietario3;
+        private System.Windows.Forms.TextBox textBoxNombre3;
+        private System.Windows.Forms.TextBox textBoxDia;
+        private System.Windows.Forms.TextBox textBoxHora;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Button nuevomascota;
+        private System.Windows.Forms.PictureBox pictureBox32;
+        private System.Windows.Forms.PictureBox pictureBox33;
+        private System.Windows.Forms.Button button37;
+        private System.Windows.Forms.PictureBox pictureBox34;
         private System.Windows.Forms.Button button38;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Button button39;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.PictureBox pictureBox35;
+        private System.Windows.Forms.Button button40;
+        private System.Windows.Forms.PictureBox pictureBox36;
+        private System.Windows.Forms.Button button41;
+        private System.Windows.Forms.PictureBox pictureBox37;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 

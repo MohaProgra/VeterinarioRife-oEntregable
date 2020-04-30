@@ -73,6 +73,16 @@ namespace VeterinarioRifeño.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bienvenido_32 {
+            get {
+                object obj = ResourceManager.GetObject("bienvenido_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap close_32 {
             get {
                 object obj = ResourceManager.GetObject("close_32", resourceCulture);
@@ -116,6 +126,16 @@ namespace VeterinarioRifeño.Properties {
         internal static System.Drawing.Bitmap mascota_32 {
             get {
                 object obj = ResourceManager.GetObject("mascota_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mascota_grande_32 {
+            get {
+                object obj = ResourceManager.GetObject("mascota_grande_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
